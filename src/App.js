@@ -27,7 +27,7 @@ function App() {
             <button style={{marginLeft: "0"}} onClick={event => onFindHotSingles(event, setSecondPage)} className={"btn"} disabled={!uploaded}>Find Hot Singles!</button>
         </div>
         <div id={"result"} style={{display: secondPage ? "block" : "none"}}>
-            <h1 className={"hot-single"}>We've found <strong>1</strong> hot single in your area...</h1>
+            <h1 className={"hot-single"}>We've found <strong>1</strong> hot single in your area... Always have been</h1>
             <div className={"card"}>
                 <img id={"cutie"} alt={"You"} />
                 <div className={"card-bottom"}>
